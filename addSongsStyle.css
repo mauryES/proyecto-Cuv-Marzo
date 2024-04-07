@@ -1,0 +1,26 @@
+body{
+    background: url(./img/twenty-one-pilots-logo-aesthetic-rflafujsun6ojivj.jpg);
+        background-size: cover;
+    }
+    .contenedorForm{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+    .contenedor{
+        text-align: center;
+        background-color: rgba(121, 122, 122, 0.9);
+        border-radius: 4px;
+        padding-top: 0.6rem;
+        margin-left:30%;
+        width: 40%;
+    }
+    .tituloEA{
+        color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 3% 5% 1% 5%;
+        background: rgba(236, 66, 24, 0.644);
+        border-radius: 10px;
+    }
+    
