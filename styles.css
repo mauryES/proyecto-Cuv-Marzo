@@ -41,84 +41,63 @@ body{
     
 }
 
-.cta {
-    display: flex;
-    padding: 11px 33px;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    color: white;
-    background: #d41c1c;
-    transition: 1s;
-    box-shadow: 6px 6px 0 black;
-    transform: skewX(-15deg);
-    border: none;
-  }
-  
-  .cta:focus {
-    outline: none;
-  }
-  
-  .cta:hover {
-    transition: 0.5s;
-    box-shadow: 10px 10px 0 #FBC638;
-  }
-  
-  .cta .second {
-    transition: 0.5s;
-    margin-right: 0px;
-  }
-  
-  .cta:hover  .second {
-    transition: 0.5s;
-    margin-right: 45px;
-  }
-  
-  .span {
-    transform: skewX(15deg)
-  }
-  
-  .second {
-    width: 20px;
-    margin-left: 30px;
-    position: relative;
-    top: 12%;
-  }
-  
-  .one {
-    transition: 0.4s;
-    transform: translateX(-60%);
-  }
-  
-  .two {
-    transition: 0.5s;
-    transform: translateX(-30%);
-  }
-  
-  .cta:hover .three {
-    animation: color_anim 1s infinite 0.2s;
-  }
-  
-  .cta:hover .one {
-    transform: translateX(0%);
-    animation: color_anim 1s infinite 0.6s;
-  }
-  
-  .cta:hover .two {
-    transform: translateX(0%);
-    animation: color_anim 1s infinite 0.4s;
-  }
-  
-  @keyframes color_anim {
-    0% {
-      fill: white;
-    }
-  
-    50% {
-      fill: #FBC638;
-    }
-  
-    100% {
-      fill: white;
-    }
-  }
+.btn {
+  appearance: none;
+  background-color: #ee2121;
+  border: 1px solid rgba(212, 24, 24, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+ }
+ 
+ button:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+ }
+ 
+ button:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(34, 123, 212, 0.15);
+  color: #959DA5;
+  cursor: default;
+ }
+ 
+ button:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+ }
+ 
+ button:focus {
+  outline: 1px transparent;
+ }
+ 
+ button:before {
+  display: none;
+ }
+ 
+ button:-webkit-details-marker {
+  display: none;
+ }
+
+ .btn{
+    display:;
+ }
